@@ -51,7 +51,8 @@ const Access = () => {
                                     <label htmlFor="phoneNo" className="form-label  fw-bold">Phone Number List</label>
                                     <input className="form-control" type="file" id="formFile" />
                                 </div>
-                                <button className='btn btn-warning button mb-3'>View List</button>
+                                <button className='btn btn-outline-warning button mb-3 me-2'>View List</button>
+                                <button className='btn btn-warning button mb-3'>Upload</button>
 
                                 <div className="row">
                                     <div className="col-md-6">

@@ -11,7 +11,7 @@ const Logo = () => {
       <h1 className="mx-auto" style={{ borderBottom: "2px solid #ffc107", width: "max-content" }}><span className="text-warning">Interaction Title</span> FEEDBACK REPORT</h1>
       <div className={`${styles.header} d-flex justify-content-between`}>
         <div className="my-5">
-          <h4>Interview : <span className="text-warning">Product Mgmt V1.0</span> </h4>
+          <h4>Interaction : <span className="text-warning">Product Mgmt V1.0</span> </h4>
           <h4>Date : <span className="text-warning">{date}</span></h4>
           <hr />
           <h4>CANDIDATE NAME : <span className="text-warning">Abc</span></h4>

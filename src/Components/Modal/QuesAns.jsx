@@ -59,7 +59,7 @@ const Quesans = () => {
                                                 <thead>
                                                     <tr className='table-warning'>
                                                         <th className='text-center' scope="col">Question:</th>
-                                                        <th className='text-center' scope="col">Answer Format(Optional):</th>
+                                                        <th className='text-center' scope="col">Answer Format:</th>
                                                         <th style={display} className='text-center' scope="col">Option 1</th>
                                                         <th style={display} className='text-center' scope="col">Option 2</th>
                                                         <th style={display} className='text-center' scope="col">Option 3</th>

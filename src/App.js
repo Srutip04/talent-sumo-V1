@@ -16,7 +16,7 @@ import Login from './Components/Login/Login';
 import SignUp from './Components/SignUp/SignUp';
 import Alert from './Components/Alert/Alert';
 import ViewReports from './Components/ViewReports/ViewReports';
-import Certificate from './Components/Certificate/Certificate';
+// import Certificate from './Components/Certificate/Certificate';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
       <Router>
         <Navbar />
         <Alert alert={alert} />
-        <Certificate />
+        {/* <Certificate /> */}
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/create' element={<Create />} />

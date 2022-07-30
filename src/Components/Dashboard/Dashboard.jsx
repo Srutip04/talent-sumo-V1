@@ -39,7 +39,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                     <div className="col-md-5">
-                        <div className={`${styles.cardCarousel} card bg-light h-100`}>
+                        <div className={`${styles.cardCarousel} card border-warning h-100`}>
                             <div className="card-body">
                                 <Carousel autoFocus={true} emulateTouch={true}
                                     infiniteLoop={true}

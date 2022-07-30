@@ -8,10 +8,6 @@
     animation: upDown 2s linear alternate-reverse infinite;
 }
 
-.cardCarousel {
-    border: none !important;
-}
-
 .card:hover,
 .cardCarousel:hover {
     box-shadow:
