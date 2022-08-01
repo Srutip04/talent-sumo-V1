@@ -41,7 +41,7 @@ const Navbar = () => {
                                 <NavLink onClick={handleClick} className={`${styles.navLink} nav-link`} to="/">Dashboard</NavLink>
                             </li>
                             <li className={`${styles.navItem} nav-item`}>
-                                <NavLink onClick={handleClick} activeclassname='active' className={`${styles.navLink} nav-link`} aria-current="page" to="/create">Create Interview</NavLink>
+                                <NavLink onClick={handleClick} activeclassname='active' className={`${styles.navLink} nav-link`} aria-current="page" to="/create">Create Interaction</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink onClick={handleClick} className={`${styles.navLink} nav-link disabled`} to="/access">Access Details</NavLink>

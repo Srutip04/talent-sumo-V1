@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "./Appendix.module.css";
+import styles from "./InteractionTranscript.module.css";
 
-const Appendix = () => {
+const InteractionTranscript = () => {
   return (
     <>
       <div className="container">
-        <h3 className='text-center mt-5 mb-3'>APPENDIX: INTERVIEW ANSWERS TRANSCRIPT</h3>
+        <h3 className='text-center mb-5'>INTERACTION TRANSCRIPT</h3>
         <div className={styles.para}></div>
         <div className={styles.para}></div>
         <div className={styles.para}></div>
@@ -15,4 +15,4 @@ const Appendix = () => {
   );
 };
 
-export default Appendix;
+export default InteractionTranscript;

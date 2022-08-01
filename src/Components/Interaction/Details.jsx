@@ -37,7 +37,7 @@ const Details = () => {
            `}
       </style>
 
-      {/* Create Interview */}
+      {/* Create Interaction */}
       <div
         className="modal fade modal-xl"
         id="exampleModal4"
@@ -58,7 +58,7 @@ const Details = () => {
                 <div className='d-grid col-md-12 mx-auto'>
                   <div className='card border-warning'>
                     <h3 className={`${styles.cardHeader} card-header text-center mb-3 bg-warning`}>
-                      Create Interview
+                      Create Interaction
                     </h3>
                     <div className="card-body">
                       <form>
@@ -99,7 +99,7 @@ const Details = () => {
                           </div>
                           <div className="col-md-6">
                             <div className="mb-3">
-                              <label htmlFor="mode" className="form-label fw-bold">Interview Mode</label>
+                              <label htmlFor="mode" className="form-label fw-bold">Interaction Mode</label>
                               <select disabled={disableButton} className="form-select" id='mode' aria-label="Default select example">
                                 <option selected value="Select">Select...</option>
                                 <option value="Audio">Audio</option>
@@ -186,7 +186,7 @@ const Details = () => {
       </div>
 
 
-      {/* Access Interview */}
+      {/* Access Interaction */}
 
       <div
         className="modal fade modal-xl"
@@ -407,7 +407,7 @@ const Details = () => {
                 <div className="row">
                   <div className='col-md-5 m-auto'>
                     <div className='card border-warning h-100'>
-                      <h3 className={`${styles.headingNotify} card-header bg-warning text-center`}>Interview Notification</h3>
+                      <h3 className={`${styles.headingNotify} card-header bg-warning text-center`}>Interaction Notification</h3>
                       <div className="card-body">
                         <form>
                           <div className="mb-3">

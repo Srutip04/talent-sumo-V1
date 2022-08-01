@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Notification.module.css';
 import { useNavigate } from 'react-router-dom';
 
-const Notification = (props) => {
+const Notification = () => {
     const navigate = useNavigate();
 
     const handleBack = (e) => {
@@ -11,7 +11,8 @@ const Notification = (props) => {
     }
 
     const handleSubmit = () => {
-        props.showAlert('Thank you for creating the interaction with test ID XYZ. Here is the interaction link created', 'success', 'LINK');
+        // props.showAlert('Thank you for creating the interaction with test ID XYZ. Here is the interaction link created', 'success', 'LINK');
+        navigate('/thankyou');
     }
     return (
         <>
@@ -26,7 +27,7 @@ const Notification = (props) => {
                 <div className="row">
                     <div className='col-md-5 m-auto'>
                         <div className='card border-warning h-100'>
-                            <h3 className={`${styles.headingNotify} card-header bg-warning text-center`}>Interview Notification</h3>
+                            <h3 className={`${styles.headingNotify} card-header bg-warning text-center`}>Interaction Notification</h3>
                             <div className="card-body">
                                 <form>
                                     <div className="mb-3">

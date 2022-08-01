@@ -44,7 +44,7 @@ const Create = () => {
                 <div className='d-grid col-md-9 mx-auto'>
                     <div className='card border-warning'>
                         <h3 className={`${styles.cardHeader} card-header text-center mb-3 bg-warning`}>
-                            Create Interview
+                            Create Interaction
                         </h3>
                         <div className="card-body">
                             <form>
@@ -85,7 +85,7 @@ const Create = () => {
                                     </div>
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label htmlFor="mode" className="form-label fw-bold">Interview Mode</label>
+                                            <label htmlFor="mode" className="form-label fw-bold">Interaction Mode</label>
                                             <select className="form-select" id='mode' aria-label="Default select example">
                                                 <option selected value="Select">Select...</option>
                                                 <option value="Audio">Audio</option>

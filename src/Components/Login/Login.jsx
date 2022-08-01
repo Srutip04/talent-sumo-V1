@@ -27,7 +27,6 @@ const Login = () => {
                                     <div className="mb-4">
                                         <input type="email" className='form-control' id="email" placeholder="Email" />
                                         <div id="emailHelp" className="form-text text-warning fw-bold">We'll never share your email with anyone else.</div>
-
                                     </div>
                                     <div className="mb-3">
                                         <input type="password" className='form-control' id="password" placeholder="Password" />

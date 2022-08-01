@@ -23,8 +23,8 @@ const ViewReports = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row mt-5">
-                    <div className="col-md-6">
+                <div className='row d-flex mt-5'>
+                    <div className="col-lg-6">
                         <table className="table table-bordered table-hover text-center">
                             <thead>
                                 <tr className='table-warning'>
@@ -36,6 +36,7 @@ const ViewReports = () => {
                                     <th scope='col'>Canddiate ID</th>
                                     <th scope='col'>Name</th>
                                     <th scope='col'>Individual Report</th>
+                                    <th scope='col'>Certificate</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -46,6 +47,13 @@ const ViewReports = () => {
                                         <Link to="/report" target="_blank">
                                             <button className='btn btn-warning'>
                                                 View Report
+                                            </button>
+                                        </Link>
+                                    </td>
+                                    <td>
+                                        <Link to="/certificate" target="_blank">
+                                            <button className='btn btn-warning'>
+                                                View Certificate
                                             </button>
                                         </Link>
                                     </td>
@@ -60,11 +68,18 @@ const ViewReports = () => {
                                             </button>
                                         </Link>
                                     </td>
+                                    <td>
+                                        <Link to="/certificate" target="_blank">
+                                            <button className='btn btn-warning'>
+                                                View Certificate
+                                            </button>
+                                        </Link>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <table className="table table-bordered table-hover text-center">
                             <thead>
                                 <tr className='table-warning'>

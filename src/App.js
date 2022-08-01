@@ -16,7 +16,8 @@ import Login from './Components/Login/Login';
 import SignUp from './Components/SignUp/SignUp';
 import Alert from './Components/Alert/Alert';
 import ViewReports from './Components/ViewReports/ViewReports';
-// import Certificate from './Components/Certificate/Certificate';
+import Certificate from './Components/Certificate/Certificate';
+import ThankYou from './Components/ThankYou/ThankYou';
 
 function App() {
 
@@ -34,12 +35,12 @@ function App() {
       <Router>
         <Navbar />
         <Alert alert={alert} />
-        {/* <Certificate /> */}
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/create' element={<Create />} />
           <Route exact path='/access' element={<Access />} />
           <Route exact path='/notification&message' element={<Notification showAlert={showAlert} />} />
+          <Route exact path='/thankyou' element={<ThankYou />} />
           <Route exact path='/interaction' element={<Interaction />} />
           <Route exact path="/report" element={<Report />} />
           <Route exact path="/leaderboardReport" element={<LeaderboardReport />} />
@@ -48,6 +49,7 @@ function App() {
           <Route exact path='/form' element={<Form />} />
           <Route exact path='/register' element={<SignUp />} />
           <Route exact path='/viewReport' element={<ViewReports />} />
+          <Route exact path='/certificate' element={<Certificate />} />
         </Routes>
       </Router>
     </>

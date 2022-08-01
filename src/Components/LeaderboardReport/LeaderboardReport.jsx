@@ -1,7 +1,7 @@
-import React from "react";
 import Logo from "./Logo";
+import ReportSnapshot from "./ReportSnapshot";
 import TopCandidates from "./TopCandidates";
-import TotalInterview from "./TotalInterview";
+import LeaderboardChart from "./LeaderboardChart";
 import Rating from "./Rating";
 
 const LeaderboardReport = () => {
@@ -12,9 +12,11 @@ const LeaderboardReport = () => {
           <div className="card-body">
             <Logo />
             <hr />
+            <ReportSnapshot />
+            <hr />
             <TopCandidates />
             <hr />
-            <TotalInterview />
+            <LeaderboardChart />
             <hr />
             <Rating />
           </div>

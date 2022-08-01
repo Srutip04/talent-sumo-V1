@@ -8,7 +8,7 @@ const Logo = () => {
 
   return (
     <>
-      <h1 className="mx-auto" style={{ borderBottom: "2px solid #ffc107", width: "max-content" }}><span className="text-warning">Interaction Title</span> FEEDBACK REPORT</h1>
+      <h1 className={`${styles.heading} mx-auto`}><span className="text-warning">Interaction Title</span> FEEDBACK REPORT</h1>
       <div className={`${styles.header} d-flex justify-content-between`}>
         <div className="my-5">
           <h4>Interaction : <span className="text-warning">Product Mgmt V1.0</span> </h4>

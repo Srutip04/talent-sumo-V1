@@ -1,10 +1,14 @@
 import React from "react";
 import Logo from "./Logo";
-import Interview from "./Interview";
-import TopInterview from "./TopInterview";
-import Rating from "./Rating";
-import General from "./General";
-import Appendix from "./Appendix";
+import Introduction from "./Introduction";
+import DomainRatings from "./DomainRatings";
+import FeedbackSnapsot from "./FeedbackSnapsot";
+import InteractionScorecard from "./InteractionScorecard";
+import RatingVariables from "./RatingVariables";
+import GeneralVariables from "./GeneralVariables";
+import ContentRatings from "./ContentRatings";
+import InteractionTranscript from "./InteractionTranscript";
+
 
 const Report = () => {
   return (
@@ -14,15 +18,21 @@ const Report = () => {
           <div className="card-body">
             <Logo />
             <hr />
-            <Interview />
+            <Introduction />
             <hr />
-            <TopInterview />
+            <DomainRatings />
             <hr />
-            <Rating />
+            <FeedbackSnapsot />
             <hr />
-            <General />
+            <InteractionScorecard />
             <hr />
-            <Appendix />
+            <RatingVariables />
+            <hr />
+            <GeneralVariables />
+            <hr />
+            <ContentRatings />
+            <hr />
+            <InteractionTranscript />
           </div>
         </div>
       </div>
