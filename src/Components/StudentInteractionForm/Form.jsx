@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Form = () => {
+
+    const [display, setDisplay] = useState(false);
+
+    const handleDisplay = (e) => {
+        e.preventDefault();
+        setDisplay(!display);
+    }
+
     return (
         <>
             <div className="container">
@@ -20,31 +28,35 @@ const Form = () => {
                                 <div className="mb-3">
                                     <input type="email" className='form-control' id="email" placeholder="What is your email ?" />
                                 </div>
+
                                 <div className="mb-3">
                                     <input type="number" className='form-control' id="accessCode" placeholder="Please enter your access code" />
                                 </div>
+                                <button onClick={handleDisplay} className='btn btn-warning mb-2'>Validate</button>
                                 <hr style={{ color: "#ffc107", borderTop: "2px solid", opacity: "1" }} />
-                                <h5 className='text-center mb-3'>Start Test</h5>
-                                <div className="mb-3">
-                                    <label className='form-label'>
-                                        What is the key function of HR that deals with training?
-                                    </label>
-                                    <select className="form-select" id='track' aria-label="Default select example">
-                                        <option selected value="Select">Select...</option>
-                                        <option value="Compensation & Benefits">Compensation & Benefits</option>
-                                        <option value="Recruitment">Recruitment</option>
-                                        <option value="Strategy">Strategy</option>
-                                        <option value="Learning & Development">Learning & Development</option>
-                                    </select>
+                                <div className={`${display ? "" : "d-none"}`}>
+                                    <h5 className='text-center mb-3'>Start Test</h5>
+                                    <div className="mb-3">
+                                        <label className='form-label'>
+                                            What is the key function of HR that deals with training?
+                                        </label>
+                                        <select className="form-select" id='track' aria-label="Default select example">
+                                            <option selected value="Select">Select...</option>
+                                            <option value="Compensation & Benefits">Compensation & Benefits</option>
+                                            <option value="Recruitment">Recruitment</option>
+                                            <option value="Strategy">Strategy</option>
+                                            <option value="Learning & Development">Learning & Development</option>
+                                        </select>
+                                    </div>
+                                    <div className="mb-3">
+                                        <label className='form-label'>
+                                            Why you want to have a career in HR?
+                                        </label>
+                                        <textarea className='form-control' rows="2"></textarea>
+                                        <div className="form-text text-end">(Record your answer via this <a href='#'>LINK</a> and insert above)</div>
+                                    </div>
+                                    <button className='btn btn-dark float-end'>Submit</button>
                                 </div>
-                                <div className="mb-3">
-                                    <label className='form-label'>
-                                        Why you want to have a career in HR?
-                                    </label>
-                                    <textarea className='form-control' rows="2"></textarea>
-                                    <div className="form-text text-end">(Record your answer via this <a href='#'>LINK</a> and insert above)</div>
-                                </div>
-                                <button className='btn btn-dark float-end'>Submit</button>
                             </form>
                         </div>
                     </div>
