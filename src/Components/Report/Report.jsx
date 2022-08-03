@@ -8,6 +8,7 @@ import RatingVariables from "./RatingVariables";
 import GeneralVariables from "./GeneralVariables";
 import ContentRatings from "./ContentRatings";
 import InteractionTranscript from "./InteractionTranscript";
+import Footer from "./Footer";
 
 
 const Report = () => {
@@ -33,6 +34,7 @@ const Report = () => {
             <ContentRatings />
             <hr />
             <InteractionTranscript />
+            <Footer />
           </div>
         </div>
       </div>

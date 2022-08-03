@@ -43,7 +43,7 @@ const ContentRatings = () => {
                     <thead className='table-warning'>
                         <tr>
                             <th scope="col">Question #</th>
-                            <th scope="col">Meaning</th>
+                            <th scope="col">Rating</th>
                         </tr>
                     </thead>
                     <tbody>
