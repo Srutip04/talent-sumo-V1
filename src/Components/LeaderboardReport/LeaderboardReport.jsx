@@ -1,3 +1,4 @@
+import React from "react";
 import Logo from "./Logo";
 import ReportSnapshot from "./ReportSnapshot";
 import TopCandidates from "./TopCandidates";
