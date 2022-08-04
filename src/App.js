@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        <Navbar />   
         <Alert alert={alert} />
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
